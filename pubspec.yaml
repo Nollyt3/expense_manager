@@ -1,0 +1,29 @@
+name: expense_manager
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^1.1.0
+  sqflite: ^1.1.5
+  built_value: ^6.1.6
+  built_collection: ^4.1.0
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter0
+  build_runner: ^1.0.0
+  built_value_generator: ^6.1.6
+
+
+
+flutter:
+
+  uses-material-design: true
